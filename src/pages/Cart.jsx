@@ -5,8 +5,6 @@ import { Link } from "react-router-dom";
 import { useUserContext } from "../context/user_context";
 
 const Cart = () => {
-  //temp
-
   const user = useSelector((state) => state.userState.user);
   const numItemsInCart = useSelector((state) => state.cartState.numItemsInCart);
   const { handleLogin } = useUserContext();

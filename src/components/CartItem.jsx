@@ -3,7 +3,7 @@ import { useDispatch } from "react-redux";
 
 import { removeItem, editItem } from "../features/cart/cartSlice";
 
-import React from "react";
+import React, { useState } from "react";
 
 const CartItem = ({ cartItem }) => {
   const dispatch = useDispatch();
@@ -11,12 +11,11 @@ const CartItem = ({ cartItem }) => {
   const removeItemFromCart = () => {
     dispatch(removeItem({ cartID }));
   };
-
   const handleAmount = (e) => {
     dispatch(editItem({ cartID, amount: parseInt(e.target.value) }));
   };
 
-  const { cartID, title, price, image, company, productColor, amount } =
+  const { cartID, title, price, image, amount, company, productColor } =
     cartItem;
 
   return (

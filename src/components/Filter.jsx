@@ -16,8 +16,6 @@ const Filter = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
 
-  //const {products, }
-
   const products = useSelector((state) => state.productsState.all_products);
 
   const { search, company, category, shipping, order, price, maxPrice } =

@@ -3,7 +3,6 @@ import { Hero } from "../components";
 import { customFetch } from "../utils";
 import { FeaturedProducts } from "../components";
 
-// const url = "/products?featured=true";
 const url = "/products";
 
 const featuredProductsQuery = {

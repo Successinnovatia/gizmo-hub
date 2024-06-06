@@ -45,7 +45,7 @@ export const loader =
         "there was an error accessing your orders";
 
       toast.error(errorMessage);
-      //if user is token is expired
+      //if user's token is expired
       if (error?.response?.status === 401 || 403) return redirect("/");
 
       return null;
