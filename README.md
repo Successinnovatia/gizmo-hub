@@ -1,6 +1,11 @@
 # GizmoHub
 
-GizmoHub is a mini e-commerce store built using React, Tailwind CSS, DaisyUI, Redux Toolkit, Auth0 and Airtable. The app allows users to browse products, view featured products, manage their cart, checkout, and view their orders.
+GizmoHub is a mini e-commerce store built using React, Tailwind CSS, DaisyUI, Redux Toolkit, Auth0 and Airtable. The app allows users to browse
+products, view featured products, manage their cart, checkout, and view their orders.
+
+## Live link
+
+https://gizmohub.netlify.app
 
 ## Features
 
